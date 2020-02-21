@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+
     [SerializeField] private float speed = 10.0f;
-    [SerializeField] private float jump = 500.0f;
+    [SerializeField] private float jump = 200.0f;
     [SerializeField] private Transform groundPosition;
     [SerializeField] private LayerMask whatGround;
     [SerializeField] private float radius;
